@@ -180,7 +180,7 @@ class Ingestar:
         Casos soportados:
         - Si hay .zip  -> lo extrae a una subcarpeta y retorna esa subcarpeta.
         - Si hay .csv  -> retorna dataset_path.
-        - Si hay .xlsx -> retorna dataset_path.  (CASO DE APARTAMENTOS SP)
+        - Si hay .xlsx -> retorna dataset_path.
         - Si no hay nada utilizable -> FileNotFoundError.
         """
         if not os.path.exists(dataset_path):
